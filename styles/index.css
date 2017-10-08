@@ -1,16 +1,8 @@
-#cart {
-  top: 50px;
-  right: 22%;
-  position: fixed;
-  display: inline-block;
-  font-size: 200%;
-}
-
 #drizzling {
   margin-top: 10px;
   width: 100%;
   height: 450px;
-  background-image: url("../resources/images/transparent-drizzling.png");
+  background-image: url("../images/transparent-drizzling.png");
 }
 
 #drizzling h2 {
