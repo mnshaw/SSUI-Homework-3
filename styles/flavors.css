@@ -1,0 +1,38 @@
+.splash {
+  margin-top: 10px;
+  width: 100%;
+  height: 450px;
+}
+
+#original {
+  /* https://assets.epicurious.com/photos/58eff9404aa0a14da5b90f1d/master/pass/OUR-FAVORITE-CINNAMON-ROLLS-04122017.jpg */
+  background-image: url("../images/original.png");
+}
+
+#original h2 {
+  font-size: 250%;
+  text-align: right; 
+  padding-top: 350px;
+  padding-right: 2.5%;
+}
+
+p {
+	font-size: 130%;
+}
+
+.addToCart {
+	font-size: 130%;
+	text-align: right;
+}
+
+button {
+	display: block;
+	right: 10px;
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+input {
+	width: 20%;
+}
