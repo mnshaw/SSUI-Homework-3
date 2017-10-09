@@ -1,3 +1,5 @@
+// Adds up the total number typed into the input boxes on the page,
+// and then writes that to the id 'total' element.
 function findTotal(){
   var arr = document.getElementsByClassName('input');
   var tot = 0;
@@ -9,7 +11,8 @@ function findTotal(){
   document.getElementById('total').textContent = tot;
 }
 
-
+// Removes elements with the same className, and updates price as well
+// as the id 'total' element.
 function remove(elem){
   className = elem.className;
   var arr = document.getElementsByClassName(className);
